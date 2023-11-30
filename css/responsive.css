@@ -1,0 +1,106 @@
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1400px) {
+    .site-navbar ul li a {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 1199px) {}
+
+.site-navbar ul li a {
+    padding: 6px;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .site-navbar ul li a {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* navbar css for mobile start */
+
+    .site-navbar ul li a {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .nav-toggler {
+        display: block;
+    }
+
+    .site-navbar {
+        min-height: 60px;
+    }
+
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 60px);
+        left: 0;
+        top: 122px;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--white);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 999;
+    }
+
+    .site-navbar li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site-navbar a {
+        color: var(--black) !important;
+
+    }
+
+    ul.open {
+        max-height: 100vh;
+        padding-top: 30px;
+    }
+
+    .clickable-inner .row .col-lg-4.col-md-6:nth-child(3),
+    .clickable-inner .row .col-lg-4.col-md-6:nth-child(4),
+    .clickable-inner .row .col-lg-4.col-md-6:nth-child(5),
+    .clickable-inner .row .col-lg-4.col-md-6:nth-child(6),
+    .clickable-inner .row .col-lg-4.col-md-6:nth-child(7) {
+        margin-top: 30px;
+    }
+
+    .casinos-inner .row .col-lg-4:nth-child(2),
+    .casinos-inner .row .col-lg-4:nth-child(3) {
+        margin-top: 30px;
+    }
+
+    .alternative-inner .row .col-lg-4:nth-child(2),
+    .alternative-inner .row .col-lg-4:nth-child(3) {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .clickable-inner .row .col-lg-4.col-md-6:nth-child(2) {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .accordion-item {
+        padding: 10px 6px;
+    }
+
+    .accordion button {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 480px) {
+
+}
